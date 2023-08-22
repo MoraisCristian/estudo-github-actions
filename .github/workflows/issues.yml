@@ -2,6 +2,7 @@ name: Handle issues
 on:
   issues:
     types:
+      - reopened
       - opened
 jobs:
   output-info:
